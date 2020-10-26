@@ -1,0 +1,166 @@
+textarea {
+  min-height: 400px;
+}
+
+body {
+  background: #f2e9e4;
+  padding-top: 3vh;
+}
+
+.form-group input, .form-group input[disabled], .form-group input:focus {
+  background-color: #f7fff7;
+  color: #22223b;
+}
+
+#compose-form textarea {
+  background-color: #f7fff7;
+  color: #22223b;
+}
+
+h1, h2, h3, h4, h5, h6, p, label {
+  color: #4a4e69;
+}
+
+.form-group {
+  color: #22223b;
+}
+
+#email-submit-button {
+  background-color: #9a8c98;
+}
+
+.btn-outline-primary {
+  border-color: #9a8c98;
+  color: #4a4e69;
+}
+
+.btn-outline-primary:hover, .btn-outline-primary.selected {
+  background-color: #9a8c98;
+  border-color: #9a8c98;
+}
+
+#to-text-error-message {
+  color: red;
+  font-size: 12px;
+  margin-left: 30px;
+}
+
+#emails-view .email-line-box:hover {
+  background-color: #9a8c98;
+}
+#emails-view #titled-first-row {
+  border-top: 1px solid #9a8c98;
+  background-color: #f2e9e4;
+  cursor: default;
+}
+#emails-view #titled-first-row p {
+  font-weight: inherit;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #4a4e69;
+}
+#emails-view .email-line-box {
+  border: 1px solid #9a8c98;
+  border-top: 0;
+  border-radius: 1px;
+  cursor: pointer;
+}
+#emails-view .email-line-box p {
+  color: #22223b;
+  margin-top: 14px;
+  margin-bottom: 12px;
+}
+#emails-view .read {
+  background-color: #f2e9e4;
+}
+#emails-view .unread {
+  background-color: #f7fff7;
+}
+#emails-view .unread p {
+  font-weight: bolder;
+}
+
+#single-email-content {
+  background-color: #f7fff7;
+  padding-bottom: 40px;
+  border: 1px solid #45a29e
+}
+#single-email-content .row p {
+  padding: 0 0 0 30px;
+  margin: 0;
+}
+#single-email-content .email-subject-section #archive-reply-button {
+  padding-top: 30px;
+}
+#single-email-content .email-subject-section #archive-reply-button button {
+  padding: 5px 30px 5px 30px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  background-color: #f7fff7;
+  color: black;
+  border: 1px solid #45a29e;
+  text-align: center;
+}
+#single-email-content .email-subject-section #archive-reply-button button:hover {
+  background-color: #9a8c98;
+}
+#single-email-content #email-subject-subsection p {
+  font-size: 60px;
+}
+#single-email-content .email-timestamp-section p {
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+#single-email-content .row.email-sender-section p:before {
+  content: "From: ";
+}
+#single-email-content .row.email-sender-section p {
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+#single-email-content .email-recipients-section p:before {
+  content: "To: ";
+}
+#single-email-content .email-recipients-section p {
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+#single-email-content .email-body-section {
+  background-color: #c9ada7;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  white-space: pre-wrap;
+}
+
+#single-email-back-section {
+  margin-top: 40px;
+}
+#single-email-back-section p:before {
+  content: "Back to ";
+}
+#single-email-back-section p:first-letter {
+  text-transform: capitalize;
+}
+#single-email-back-section .row {
+  margin: 0;
+  padding: 0;
+}
+#single-email-back-section .row #back-button {
+  background-color: #f7fff7;
+  cursor: pointer;
+  border: 1px solid #45a29e
+}
+#single-email-back-section .row #back-button p {
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+}
+#single-email-back-section .row #back-button:hover {
+  background-color: #9a8c98;
+}
+#single-email-back-section .row #back-button:hover p {
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */
